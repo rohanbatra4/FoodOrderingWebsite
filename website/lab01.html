@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food Rush</title>
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="margin:0px;">
+
+<div class="header">
+  <div>
+    <span class="headerTitle">FoodRush</span></i>
+  </div>
+</div>
+
+  <section class="FRbanner">
+    <div class="bannerText">
+      <h1 class="bannerTitle">RESTAURANTS NEAR YOU</h1>
+      <a class="bannerbutton" href="#services"> Search </a>
+    </div>
+  </section>
+  <section id="about">
+    <div class="sectionTitle">
+            <h2>About the Creator</h2>
+          </div>
+          <p align="justify"  class="about">I am a Computer Science freshman at Georgia Tech. I created this website in order to develop an easy way to order food from multiple restaurants with a 2km radius at a single point of time. You can also order food from a restaurant far away, but you will be limited to order from one restaurant at a time. This website links the official websites of the restaurants, which helps the user choose his/her order. The payment, however, is made through this website to provide discounts and cashbacks. I am a coding enthusiast and a food lover. My interest in these two fields are also the reason why I decided to create this website. I wish to help as many people as I can, which is also why my company acquires food worth 10% of the earnings made everyday after all deliveries are over to donate to food banks and underpriveleged people all around us.</p>
+
+    </div>
+  </section>
+  <div>
+   <center><h3><a class="foodpage" href="https://www.instagram.com/fabfoodfacts/">Food Trivia for Enthusiasts</a></h3>
+  </div>
+    <a href="https://www.instagram.com/fabfoodfacts/"><marquee><img src="back/fabfoodfacts.jpg" width="100px" height="100px"></marquee></a></center>
+  <section id="services">
+      <div class="centeralign">
+        <h2>Restaurants Near You</h2>
+      </div>
+          <table>
+			<thead>
+				<tr align="center">
+				<th><img src="back/kfc.png"></th>
+				<th><img src="back/pizzahut.png"></th>
+				<th><img src="back/McDonalds.png"></th>
+				<th><img src="back/dominos.png"></th>
+			  </tr>
+			</thead>
+			<tbody>
+
+			 <tr>
+				<td style="text-align:center;"><h3 >MENU<h3><strong><ul>
+				  <li>Combo 1 - $ 2.99</li>
+				  <li>Combo 2 - $ 3.99</li>
+				  <li>Combo 3 - $ 5.99</li>
+				  <li>Combo 4 - $ 6.99</li>
+				  <li>Combo 5 - $ 8.99</li>
+				</ul></strong></td>
+				<td style="text-align:center;"><h3 >MENU<h3><strong><ul>
+				  <li>Combo 1 - $ 2.99</li>
+				  <li>Combo 2 - $ 3.99</li>
+				  <li>Combo 3 - $ 5.99</li>
+				  <li>Combo 4 - $ 6.99</li>
+				  <li>Combo 5 - $ 8.99</li>
+				</ul></strong></td>
+				<td style="text-align:center;"><h3 >MENU<h3><strong><ul>
+				  <li>Combo 1 - $ 2.99</li>
+				  <li>Combo 2 - $ 3.99</li>
+				  <li>Combo 3 - $ 5.99</li>
+				  <li>Combo 4 - $ 6.99</li>
+				  <li>Combo 5 - $ 8.99</li>
+				</ul></strong></td>
+				<td style="text-align:center;"><h3 >MENU<h3><strong><ul>
+				  <li>Combo 1 - $ 2.99</li>
+				  <li>Combo 2 - $ 3.99</li>
+				  <li>Combo 3 - $ 5.99</li>
+				  <li>Combo 4 - $ 6.99</li>
+				  <li>Combo 5 - $ 8.99</li>
+				</ul></strong></td>
+
+			  </tr>
+			  <tr>
+				<td><strong>Address:</strong><div>
+				3510 Cascade Rd SW Atlanta GA<div></td>
+				<td><strong>Address:</strong><div>
+				3695 Cascade Rd SW Atlanta GA<div></td>
+				<td><strong>Address:</strong><div>
+				526 Ponce De Leon Blvd Atlanta GA<div></td>
+				<td><strong>Address:</strong><div>
+				461 Ponce De Leon Ave NE Atalanta GA<div></td>
+
+			  </tr>
+			    <tr>
+				<td><strong>Contact: </strong><div>
+				+1 404-696-43xx<div></td>
+				<td><strong>Contact: </strong><div>
+				+1 404-699-77xx<div></td>
+				<td><strong>Contact: </strong><div>
+				+1 404-874-78xx<div></td>
+				<td><strong>Contact: </strong><div>
+				+1 404-874-00xx<div></td>
+
+			  </tr>
+
+			</tbody>
+
+		</table>
+  </section>
+    <section id="placeorder">
+	<div class="centeralign"><h2>Place Your Order</h2></div>
+	<div class="centeralign">
+		<form onsubmit="placeOrder()" method="post">
+			<table  class="bordernone" style="width:50%;" align="center">
+				<tr ><td ><label style="width: 300px;">Choose Restaurant</label></td>
+					<td><select style="width:100%" required>
+						<option value="KFC">KFC</option>
+						  <option value="PizzaHut">PizzaHut</option>
+						  <option value="McDonald">McDonald</option>
+						   <option value="Dominos">Dominos</option>
+					  </select></td>
+				</tr>
+				<tr>
+					<td><label>Menu Choice</label></td>
+						<td><select style="width:100%" required>
+							<option value="Combo1">Combo1</option>
+							<option value="Combo2">Combo2</option>
+							<option value="Combo3">Combo3</option>
+							<option value="Combo4">Combo4</option>
+							<option value="Combo5">Combo5</option>
+						</select></td></tr>
+				<tr>
+					<td><label>Name</label></td>
+					<td><input type="text" name="name" placeholder="Name" style="width:100%" required></td>
+				</tr>
+				<tr>
+					<td><label>Mobile Number</label></td>
+					<td><input type="tel" name="mobile" id="mobile" placeholder="Mobile Number" style="width:100%" required></td>
+				</tr>
+				<tr>
+					<td><label>Address</label></td>
+					<td><textarea placeholder="Address" rows="3" required style="width:100%"></textarea></td>
+				</tr>
+				<tr><td><label>Choose Payment Option</label></td>
+				<td><select style="width:100%" required>
+					<option value="CreditCard">Credit Card</option>
+					<option value="DebitCard">Debit Card</option>
+					<option value="COD">Cash on Delivery</option>
+					<option value="Wallet">Digital Wallet</option>
+			</select></td></tr>
+
+			</table>
+			<div id="padding">
+                <button  class="bannerbutton" type="submit">Place Order</button>
+              </div>
+
+		</form>
+	</div>
+  </section>
+  <div>
+   <center><h3><a class="continue" href="seperate.html">Know more about how we deal with COVID-19</a></h3></center>
+  </div>
+  <footer class="centeralign" >
+    <div>
+      <p  style="color: white!important;">Copyright © 2020</p>
+      <p  style="color: white!important;">Designed by Rohan Batra</p>
+    </div>
+  </footer>
+
+  <script>
+	function placeOrder() {
+		var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+  if((mobile.value.match(phoneno))) {
+	window.open("orderplaced.html");
+	return true;
+
+        }
+      else
+        {
+		alert("Please enter 10 digit mobile number");
+		return false;
+		}
+	}
+	</script>
+</body>
+
+</html>

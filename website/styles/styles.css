@@ -1,0 +1,86 @@
+
+  table, th, td {
+  border: solid 1px grey;
+  padding: 10px;
+
+}
+tr {
+color: grey;font-size:14px;
+}
+table {
+    border-collapse:collapse;
+    caption-side:bottom;
+	width: 100%;
+}
+ul{
+text-align:left;
+}
+section {
+padding: 50px 20px 30px 20px}
+.header {
+width:98.55%; padding:10px; background-color: red
+}
+.headerTitle{
+font-size: 40px; font-weight:900; color: white;
+}
+a{
+text-decoration: none;
+}
+.FRbanner{
+	position: relative;
+    height: 70vh;
+	background-image: url('../back/banner.jpg');
+	background-size: cover;
+	}
+.bannerText{
+text-align: center!important;
+color: white;
+padding-top:150px;
+}
+.bannerTitle{
+font-size: 50px;
+padding-bottom:25px;
+}
+.foodpage:visited {
+  color:red;
+}
+.continue:hover {
+  color:red;
+  font-size: 20px;
+}
+.continue:active{
+  color:pink;
+}
+h2 {
+font-size:35px;
+}
+.bannerbutton{
+background-color: red;
+padding: 15px 20px;
+font-size:20px;
+color:white;
+}
+.sectionTitle{
+padding: 10px 30px; text-align: center;
+}
+.about{
+padding: 10px 50px; font-size: 20px;
+}
+h3{
+font-size: 18px;
+}
+#services{
+background: snow;
+}
+.centeralign{
+text-align: center;
+}
+#padding{
+padding: 10px 0px;
+}
+.bordernone{
+	border:none;
+}
+footer{
+	background-color: #555; padding:5px
+}
